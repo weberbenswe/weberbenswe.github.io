@@ -1,2 +1,1 @@
-# personal_website
-Personal Website
+# This is a personal professional Website I made using bootstrap.

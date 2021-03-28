@@ -554,8 +554,8 @@ pre code {
 .container-md,
 .container-sm {
   width: 100%;
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
   margin-right: auto;
   margin-left: auto;
 }
@@ -3993,7 +3993,7 @@ input[type=button].btn-block {
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
   padding: 0.5rem 1rem;
 }
@@ -4005,8 +4005,8 @@ input[type=button].btn-block {
 .navbar .container-xl {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
+  align-items: stretch;
+  justify-content: space-around;
 }
 .navbar-brand {
   display: inline-block;
@@ -6363,6 +6363,10 @@ button.bg-dark:focus {
 
 .d-flex {
   display: flex !important;
+  background: rgba(0, 0, 0, .4);
+  padding: 2em 2em 2em 2em;
+  border-radius: 10%;
+  width: 40%;
 }
 
 .d-inline-flex {
